@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 4
+
+   Park City Gazette Style Sheet
+   Author: Anthony S.A Gradillas
+   Date:   10.26.18
+
+   Filename:         pcg_paper.css
+   Supporting Files: 
+
+*/
+
+/* General Styles */
+
+article,
+aside,
+body,
+div,
+footer,
+h1,
+header,
+html,
+img,
+li,
+nav,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: aliceblue;
+}
+
+/* Body Styles */
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(154, 184, 213);
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: 16px;
+    width: 1152px;
+}
+
+body>header>img {
+    display: block;
+    width: 100%;
+}
+
+
+/* Horizontal Navigation List Styles */
+
+nav.horizontal ul li {
+    background-color: rgb(28, 64, 97);
+    display: block;
+    font-size: 15px;
+    float: left;
+    line-height: 30px;
+    height: 30px;
+    width: 144px;
+}
+
+nav.horizontal a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav.horizontal a:link,
+nav.horizontal:visited {
+    color: rgb(211, 233, 225);
+}
+
+nav.horizontal a:hover,
+nav.horizontal:active {
+    background-color: rgb(45, 52, 62);
+}
+
+
+/* Footer Styles */
+
+body>footer {
+    background-color: rgb(45, 54, 62);
+    clear: both;
+    color: rgb(157, 183, 216);
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+/* Article Styles */
+
+body>article {
+    background-color: rgb(132, 141, 182);
+}
+
+body>article>h1 {
+    font-size: 1.5em;
+    margin: 20px;
+}
+
+body>article>p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8px;
+    padding-bottom: 10px;
+}
+
+
+
+/* Aside Styles */
+
+body>aside {
+    float: left;
+    width: 768px;
+}
+
+body>aside>h1 {
+    font-size: 1.5em;
+    margin: 20px;
+}
+
+aside p {
+    line-height: 1.4em;
+    margin: 20px;
+}
