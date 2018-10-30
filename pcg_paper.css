@@ -14,12 +14,12 @@
 
 */
 
-/* General Styles */
+/* For the general styles make the elements I am going to be using with padding of 0, margin 0, and border 0. Make the html's background color a light blue.  */
 
+/* General Styles */
 article,
 aside,
 body,
-div,
 footer,
 h1,
 header,
@@ -28,43 +28,22 @@ img,
 li,
 nav,
 p,
-ul {
+ul,
+a {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 html {
-    background-color: aliceblue;
+    background-color: rgb(233, 172, 80);
 }
 
-/* Body Styles */
-
-body {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(154, 184, 213);
-    font-family: Verdana, Geneva, Arial, sans-serif;
-    font-size: 16px;
-    width: 1152px;
-}
-
-body>header>img {
-    display: block;
-    width: 100%;
-}
-
+/* Changed the link for once hovered over and clicked on so that way the color is different. Make a change to the list's font size, make sure it floats left, make the width 30px and height 144px, and make the line height 30px so that way the line height can keep it centered. Make the links display as a block and center align it with no underline which is text decoration. */
 
 /* Horizontal Navigation List Styles */
-
 nav.horizontal ul li {
-    background-color: rgb(28, 64, 97);
+    background-color: rgb(114, 89, 36);
     display: block;
     font-size: 15px;
     float: left;
@@ -81,36 +60,46 @@ nav.horizontal a {
 
 nav.horizontal a:link,
 nav.horizontal:visited {
-    color: rgb(211, 233, 225);
+    color: rgb(233, 227, 211);
 }
 
 nav.horizontal a:hover,
 nav.horizontal:active {
-    background-color: rgb(45, 52, 62);
+    background-color: rgb(148, 113, 65);
 }
 
+/* Make the auto center with the background color being a light blue and any font of your choice, also make the font size 16px. Then made the width 1152px, because that makes it fit perfectly. Also, make sure the headers image is displayed as a block with  width of 100% so it completely fits. Then, make the blake.jpg image float right with a padding of 20px. */
 
-/* Footer Styles */
-
-body>footer {
-    background-color: rgb(45, 54, 62);
-    clear: both;
-    color: rgb(157, 183, 216);
-    font-size: 12px;
-    line-height: 24px;
-    text-align: center;
+/* Body Styles */
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(213, 192, 154);
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: 16px;
+    width: 1152px;
 }
 
+body>header>img {
+    display: block;
+    width: 100%;
+}
+
+body>article>img {
+    float: right;
+    padding: 20px;
+}
+
+/* Change the background color of the article to a semi darker blue. Make the h1 a bigger size with a margin of 20px so it's not to close to the side of the page. Push the paragraphs away from the left and right side and a little bit on top so it's not close to the h1 and padding on the bottom to move it away from the bottom page.  */
 
 /* Article Styles */
-
 body>article {
-    background-color: rgb(132, 141, 182);
+    background-color: rgb(204, 176, 134);
 }
 
 body>article>h1 {
     font-size: 1.5em;
-    margin: 20px;
+    margin: 10px;
 }
 
 body>article>p {
@@ -120,21 +109,14 @@ body>article>p {
     padding-bottom: 10px;
 }
 
+/* Change the background color of the footer and the font color, also clear both with the size of the font being a bit small and the line height to make it stay away from the edges and the text align to center it. */
 
-
-/* Aside Styles */
-
-body>aside {
-    float: left;
-    width: 768px;
-}
-
-body>aside>h1 {
-    font-size: 1.5em;
-    margin: 20px;
-}
-
-aside p {
-    line-height: 1.4em;
-    margin: 20px;
+/* Footer Styles */
+body>footer {
+    background-color: rgb(62, 58, 45);
+    clear: both;
+    color: rgb(216, 195, 157);
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
 }
