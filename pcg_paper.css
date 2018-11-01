@@ -98,6 +98,7 @@ body>article {
 }
 
 body>article>h1 {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     margin: 10px;
 }
@@ -107,6 +108,30 @@ body>article>p {
     margin-right: 10px;
     margin-top: 8px;
     padding-bottom: 10px;
+}
+
+/* Change the background color of the aside to have a liitle bit more color then the articles background color,so that way it can stand out. Make the font size different and set the margin of the links and padding different so it can seperate them away from eachother, also set a none text decoration so that way there is no line underneath it. Make it to where once it has been visited to be a light color so it is able to be noticable and make it to where once it is hovered over it is a darker color so it can also be noticed when being hovered over. */
+
+/* Aside Styles */
+body>aside {
+    background-color: rgb(201, 155, 87);
+}
+
+body>aside>a {
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 25px;
+    text-decoration: none;
+}
+
+body>aside>a:link,
+body>aside>nav:visited {
+    color: rgb(216, 195, 157);
+}
+
+body>aside>a:hover,
+body>aside>nav:active {
+    color: rgb(122, 92, 52);
 }
 
 /* Change the background color of the footer and the font color, also clear both with the size of the font being a bit small and the line height to make it stay away from the edges and the text align to center it. */
